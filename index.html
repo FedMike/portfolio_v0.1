@@ -1,400 +1,393 @@
 <!DOCTYPE html>
 <html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Portfolio" />
+        <title>FedMike | Web developer</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio">
-    <title>FedMike | Web developer</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-
-<body class="wrapper">
-    <header class="lock-padding">
-        <div class="container">
-            <div class="header-wrapper ">
-                <div class="header-logo">
-                    <a href="/index.html">
-                        <img src="/img/logo.png" alt="Логотип">
-                    </a>
-                </div>
-                <nav class="header-nav">
-                    <ul class="header-nav__list">
-                        <li class="header-nav__item"><a href="#about">Обо мне</a></li>
-                        <li class="header-nav__item"><a href="#skills">Мои навыки</a></li>
-                        <li class="header-nav__item"><a href="#projects">Мои проекты</a></li>
-                        <li class="header-nav__item"><a href="#contacts">Контакты</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-
-    <div class="menu-burger">
-        <div class="menu-burger__icon">
-            <span></span>
-        </div>
-        <nav class="menu-burger__nav">
-            <ul class="menu-burger__list">
-                <li class="menu-burger__item"><a href="#about">Обо мне</a></li>
-                <li class="menu-burger__item"><a href="#skills">Мои навыки</a></li>
-                <li class="menu-burger__item"><a href="#projects">Мои проекты</a></li>
-                <li class="menu-burger__item"><a href="#contacts">Контакты</a></li>
-            </ul>
-        </nav>
-    </div>
-    
-    <main>
-        <section class="main-top anim-items anim-no-hide">
+    <body class="wrapper">
+        <header class="lock-padding">
             <div class="container">
-                <div class="main__image">
-                    <img src="/img/main_image.jpg" alt="">
+                <div class="header-wrapper">
+                    <div class="header-logo">
+                        <a href="./index.html">
+                            <img src="./img/logo.png" alt="Логотип" />
+                        </a>
+                    </div>
+                    <nav class="header-nav">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__item"><a href="#about">Обо мне</a></li>
+                            <li class="header-nav__item"><a href="#skills">Мои навыки</a></li>
+                            <li class="header-nav__item"><a href="#projects">Мои проекты</a></li>
+                            <li class="header-nav__item"><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </section>
+        </header>
 
-        <section id="about" class="about-section">
+        <div class="menu-burger">
+            <div class="menu-burger__icon">
+                <span></span>
+            </div>
+            <nav class="menu-burger__nav">
+                <ul class="menu-burger__list">
+                    <li class="menu-burger__item"><a href="#about">Обо мне</a></li>
+                    <li class="menu-burger__item"><a href="#skills">Мои навыки</a></li>
+                    <li class="menu-burger__item"><a href="#projects">Мои проекты</a></li>
+                    <li class="menu-burger__item"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main>
+            <section class="main-top anim-items anim-no-hide">
+                <div class="container">
+                    <div class="main__image">
+                        <img src="./img/main_image.jpg" alt="" />
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about-section">
+                <div class="container">
+                    <div class="about">
+                        <div class="about__top">
+                            <div class="about__text anim-items anim-no-hide">
+                                <h1 class="anim-items anim-no-hide">Привет!</h1>
+                                <p class="anim-items anim-no-hide">Меня зовут Михаил, с 2022 года узнал про веб-разработку и заинтересовался этим, начал серьёзно учиться и заниматься. Всегда нравилось упрощать сложное и автоматизировать рутинные процессы, делать всё красиво и интуитивно понятным для пользования. Оказалось, что в веб-разработке это всё применимо.</p>
+                            </div>
+                            <div class="about__image anim-items anim-no-hide">
+                                <img src="./img/about_image.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="about__bottom swiper">
+                            <div class="swiper-wrapper anim-items anim-no-hide">
+                                <div class="about__images swiper-slide">
+                                    <a href="#image01" class="popup-link">
+                                        <div class="about__image">
+                                            <img src="./img/about_big/01.jpg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="about__images swiper-slide">
+                                    <a href="#image02" class="popup-link">
+                                        <div class="about__image">
+                                            <img src="./img/about_big/02.jpg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="about__images swiper-slide">
+                                    <a href="#image03" class="popup-link">
+                                        <div class="about__image">
+                                            <img src="./img/about_big/03.jpg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="about__images swiper-slide">
+                                    <a href="#image04" class="popup-link">
+                                        <div class="about__image">
+                                            <img src="./img/about_big/04.jpg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="about__images swiper-slide">
+                                    <a href="#image05" class="popup-link">
+                                        <div class="about__image">
+                                            <img src="./img/about_big/05.jpg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="about__images swiper-slide">
+                                    <a href="#image06" class="popup-link">
+                                        <div class="about__image">
+                                            <img src="./img/about_big/06.jpg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="about__images swiper-slide">
+                                    <a href="#image07" class="popup-link">
+                                        <div class="about__image">
+                                            <img src="./img/about_big/07.jpg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="about__images swiper-slide">
+                                    <a href="#image08" class="popup-link">
+                                        <div class="about__image">
+                                            <img src="./img/about_big/08.jpg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="about__images swiper-slide">
+                                    <a href="#image09" class="popup-link">
+                                        <div class="about__image">
+                                            <img src="./img/about_big/09.jpg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="about__images swiper-slide">
+                                    <a href="#image10" class="popup-link">
+                                        <div class="about__image">
+                                            <img src="./img/about_big/10.jpg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="skills-section anim-items anim-no-hide">
+                <div class="container">
+                    <div class="skills">
+                        <div class="section-title anim-items anim-no-hide">
+                            <h1>Мои навыки</h1>
+                        </div>
+                        <div class="skills__items">
+                            <div class="skills__item">
+                                <div class="skills__img anim-items anim-no-hide">
+                                    <img src="./img/skills/html5.png" alt="" />
+                                </div>
+                                <p class="skills__text anim-items anim-no-hide">HTML5</p>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__img anim-items anim-no-hide">
+                                    <img src="./img/skills/css3.png" alt="" />
+                                </div>
+                                <p class="skills__text anim-items anim-no-hide">CSS3</p>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__img anim-items anim-no-hide">
+                                    <img src="./img/skills/javascript.png" alt="" />
+                                </div>
+                                <p class="skills__text anim-items anim-no-hide">JavaScript</p>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__img anim-items anim-no-hide">
+                                    <img src="./img/skills/nodejs.png" alt="" />
+                                </div>
+                                <p class="skills__text anim-items anim-no-hide">Node</p>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__img anim-items anim-no-hide">
+                                    <img src="./img/skills/jquery.png" alt="" />
+                                </div>
+                                <p class="skills__text anim-items anim-no-hide">jQuery</p>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skills__img anim-items anim-no-hide">
+                                    <img src="./img/skills/sass.png" alt="" />
+                                </div>
+                                <p class="skills__text anim-items anim-no-hide">SASS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects-section">
+                <div class="container">
+                    <div class="projects">
+                        <div class="section-title anim-items anim-no-hide">
+                            <h2>Мои проекты</h2>
+                        </div>
+                        <div class="projects__list">
+                            <div class="project anim-items anim-no-hide">
+                                <a href="#">
+                                    <div class="project-image">
+                                        <img src="./img/image-1.jpg" alt="" />
+                                    </div>
+                                    <div class="project-description">
+                                        <h4 class="project-title">Какой то проект 1</h4>
+                                        <span></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project anim-items anim-no-hide">
+                                <a href="#">
+                                    <div class="project-image">
+                                        <img src="./img/image-2.jpg" alt="" />
+                                    </div>
+                                    <div class="project-description">
+                                        <p class="project-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam voluptatum, quasi suscipit totam cumque sint temporibus amet asperiores vel voluptas esse ipsam earum fugit nisi doloribus, nihil maiores maxime voluptates reprehenderit dolore. Nisi voluptatibus, molestiae velit dolor alias, sapiente consequuntur assumenda harum aut ipsa cum obcaecati quia voluptates cumque.</p>
+                                        <span></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project anim-items anim-no-hide">
+                                <a href="#">
+                                    <div class="project-image">
+                                        <img src="./img/image-3.jpg" alt="" />
+                                    </div>
+                                    <div class="project-description">
+                                        <p class="project-title">Какой то проект 3</p>
+                                        <span></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contacts" class="contacts-section anim-items anim-no-hide">
+                <div class="container">
+                    <div class="contacts">
+                        <div class="section-title anim-items anim-no-hide">
+                            <h1>Контакты</h1>
+                        </div>
+                        <p class="contacts__text anim-items anim-no-hide">Связь со мной</p>
+                        <div class="contacts__form">
+                            <form action="#" id="form" class="form anim-items anim-no-hide">
+                                <div class="form__container">
+                                    <div class="form__left form__container2">
+                                        <label for="formName" class="form__label">Имя</label>
+                                        <input class="form__input _req" type="text" id="formName" name="name" />
+                                        <label for="formEmail" class="form__label">Ваш Email</label>
+                                        <input class="form__input _req _email" type="text" id="formEmail" name="email" />
+                                    </div>
+                                    <div class="form__right form__container2">
+                                        <label for="formMessage" class="form__label">Сообщение</label>
+                                        <textarea class="form__input _req" name="message" id="formMessage"></textarea>
+                                    </div>
+                                </div>
+                                <button class="btn" type="submit">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
             <div class="container">
-                <div class="about">
-                    <div class="about__top">
-                        <div class="about__text anim-items anim-no-hide">
-                            <h1 class="anim-items anim-no-hide">
-                                Привет!
-                            </h1>
-                            <p class="anim-items anim-no-hide">
-                                Меня зовут Михаил, с 2022 года узнал про веб-разработку и заинтересовался этим, начал серьёзно учиться и заниматься. Всегда нравилось упрощать сложное и автоматизировать рутинные процессы, делать всё красиво и интуитивно понятным для пользования. Оказалось, что в веб-разработке это всё применимо.
-                            </p>
-                        </div>
-                        <div class="about__image anim-items anim-no-hide">
-                            <img src="/img/about_image.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="about__bottom swiper">
-                        <div class="swiper-wrapper anim-items anim-no-hide">
-                            <div class="about__images swiper-slide">
-                                <a href="#image01" class="popup-link">
-                                    <div class="about__image">
-                                        <img src="/img/about_big/01.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="about__images swiper-slide">
-                                <a href="#image02" class="popup-link">
-                                    <div class="about__image">
-                                        <img src="/img/about_big/02.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="about__images swiper-slide">
-                                <a href="#image03" class="popup-link">
-                                    <div class="about__image">
-                                        <img src="/img/about_big/03.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="about__images swiper-slide">
-                                <a href="#image04" class="popup-link">
-                                    <div class="about__image">
-                                        <img src="/img/about_big/04.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="about__images swiper-slide">
-                                <a href="#image05" class="popup-link">
-                                    <div class="about__image">
-                                        <img src="/img/about_big/05.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="about__images swiper-slide">
-                                <a href="#image06" class="popup-link">
-                                    <div class="about__image">
-                                        <img src="/img/about_big/06.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="about__images swiper-slide">
-                                <a href="#image07" class="popup-link">
-                                    <div class="about__image">
-                                        <img src="/img/about_big/07.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="about__images swiper-slide">
-                                <a href="#image08" class="popup-link">
-                                    <div class="about__image">
-                                        <img src="/img/about_big/08.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="about__images swiper-slide">
-                                <a href="#image09" class="popup-link">
-                                    <div class="about__image">
-                                        <img src="/img/about_big/09.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="about__images swiper-slide">
-                                <a href="#image10" class="popup-link">
-                                    <div class="about__image">
-                                        <img src="/img/about_big/10.jpg" alt="">
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-scrollbar"></div>
-                    </div>
+                <div class="footer">
+                    <div class="copyright">© 2022 FedMike</div>
                 </div>
             </div>
-        </section>
+        </footer>
 
-        <section id="skills" class="skills-section anim-items anim-no-hide">
-            <div class="container">
-                <div class="skills">
-                    <div class="section-title anim-items anim-no-hide">
-                        <h1>Мои навыки</h1>
-                    </div>
-                    <div class="skills__items">
-                        <div class="skills__item">
-                            <div class="skills__img anim-items anim-no-hide">
-                                <img src="/img/skills/html5.png" alt="">
-                            </div>
-                            <p class="skills__text anim-items anim-no-hide">HTML5</p>
-                        </div>
-                        <div class="skills__item">
-                            <div class="skills__img anim-items anim-no-hide">
-                                <img src="/img/skills/css3.png" alt="">
-                            </div>
-                            <p class="skills__text anim-items anim-no-hide">CSS3</p>
-                        </div>
-                        <div class="skills__item">
-                            <div class="skills__img anim-items anim-no-hide">
-                                <img src="/img/skills/javascript.png" alt="">
-                            </div>
-                            <p class="skills__text anim-items anim-no-hide">JavaScript</p>
-                        </div>
-                        <div class="skills__item">
-                            <div class="skills__img anim-items anim-no-hide">
-                                <img src="/img/skills/nodejs.png" alt="">
-                            </div>
-                            <p class="skills__text anim-items anim-no-hide">Node</p>
-                        </div>
-                        <div class="skills__item">
-                            <div class="skills__img anim-items anim-no-hide">
-                                <img src="/img/skills/jquery.png" alt="">
-                            </div>
-                            <p class="skills__text anim-items anim-no-hide">jQuery</p>
-                        </div>
-                        <div class="skills__item">
-                            <div class="skills__img anim-items anim-no-hide">
-                                <img src="/img/skills/sass.png" alt="">
-                            </div>
-                            <p class="skills__text anim-items anim-no-hide">SASS</p>
-                        </div>
+        <div id="popup" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#invisible" class="popup__close close-popup">X</a>
+                    <div class="popup__title">Это модальное окно</div>
+                    <div class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum at, quia harum animi earum soluta quas commodi magnam sapiente dolorem iusto sequi quae id minus ipsa necessitatibus totam ducimus.</div>
+                </div>
+            </div>
+        </div>
+        <div id="image01" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close close-popup">X</a>
+                    <div class="popup__image">
+                        <img src="./img/about_big/01.jpg" alt="" />
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <div id="image02" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close close-popup">X</a>
+                    <div class="popup__image">
+                        <img src="./img/about_big/02.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="image03" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close close-popup">X</a>
+                    <div class="popup__image">
+                        <img src="./img/about_big/03.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="image04" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close close-popup">X</a>
+                    <div class="popup__image">
+                        <img src="./img/about_big/04.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="image05" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close close-popup">X</a>
+                    <div class="popup__image">
+                        <img src="./img/about_big/05.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="image06" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close close-popup">X</a>
+                    <div class="popup__image">
+                        <img src="./img/about_big/06.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="image07" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close close-popup">X</a>
+                    <div class="popup__image">
+                        <img src="./img/about_big/07.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="image08" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close close-popup">X</a>
+                    <div class="popup__image">
+                        <img src="./img/about_big/08.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="image09" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close close-popup">X</a>
+                    <div class="popup__image">
+                        <img src="./img/about_big/09.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="image10" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#" class="popup__close close-popup">X</a>
+                    <div class="popup__image">
+                        <img src="./img/about_big/10.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <section id="projects" class="projects-section">
-            <div class="container">
-                <div class="projects">
-                    <div class="section-title anim-items anim-no-hide">
-                        <h2>Мои проекты</h2>
-                    </div>
-                    <div class="projects__list">
-                        <div class="project anim-items anim-no-hide">
-                            <a href="#">
-                                <div class="project-image">
-                                    <img src="/img/image-1.jpg" alt="">
-                                </div>
-                                <div class="project-description">
-                                    <h4 class="project-title">Какой то проект 1</h4>
-                                    <span></span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="project anim-items anim-no-hide">
-                            <a href="#">
-                                <div class="project-image">
-                                    <img src="/img/image-2.jpg" alt="">
-                                </div>
-                                <div class="project-description">
-                                    <p class="project-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam voluptatum, quasi suscipit totam cumque sint temporibus amet asperiores vel voluptas esse ipsam earum fugit nisi doloribus, nihil maiores maxime voluptates reprehenderit dolore. Nisi voluptatibus, molestiae velit dolor alias, sapiente consequuntur assumenda harum aut ipsa cum obcaecati quia voluptates cumque.</p>
-                                    <span></span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="project anim-items anim-no-hide">
-                            <a href="#">
-                                <div class="project-image">
-                                    <img src="/img/image-3.jpg" alt="">
-                                </div>
-                                <div class="project-description">
-                                    <p class="project-title">Какой то проект 3</p>
-                                    <span></span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contacts" class="contacts-section anim-items anim-no-hide">
-            <div class="container">
-                <div class="contacts">
-                    <div class="section-title anim-items anim-no-hide">
-                        <h1>Контакты</h1>
-                    </div>
-                    <p class="contacts__text anim-items anim-no-hide">Связь со мной</p>
-                    <div class="contacts__form">
-                        <form action="#" id="form" class="form anim-items anim-no-hide">
-                            <div class="form__container">
-                                <div class="form__left form__container2">
-                                    <label for="formName" class="form__label">Имя</label>
-                                    <input class="form__input _req" type="text" id="formName" name="name">
-                                    <label for="formEmail" class="form__label">Ваш Email</label>
-                                    <input class="form__input _req _email" type="text" id="formEmail" name="email">
-                                </div>
-                                <div class="form__right form__container2">
-                                    <label for="formMessage" class="form__label">Сообщение</label>
-                                    <textarea class="form__input _req" name="message" id="formMessage"></textarea>
-                                </div>
-                            </div>
-                            <button class="btn" type="submit">Отправить</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <div class="footer">
-                <div class="copyright">© 2022 FedMike</div>
-            </div>
-        </div>
-    </footer>
-
-    <div id="popup" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#invisible" class="popup__close close-popup">X</a>
-                <div class="popup__title">Это модальное окно</div>
-                <div class="popup__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum at, quia harum animi earum soluta quas commodi magnam sapiente dolorem iusto sequi quae id minus ipsa necessitatibus totam ducimus.
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="image01" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#" class="popup__close close-popup">X</a>
-                <div class="popup__image">
-                    <img src="/img/about_big/01.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="image02" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#" class="popup__close close-popup">X</a>
-                <div class="popup__image">
-                    <img src="/img/about_big/02.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="image03" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#" class="popup__close close-popup">X</a>
-                <div class="popup__image">
-                    <img src="/img/about_big/03.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="image04" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#" class="popup__close close-popup">X</a>
-                <div class="popup__image">
-                    <img src="/img/about_big/04.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="image05" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#" class="popup__close close-popup">X</a>
-                <div class="popup__image">
-                    <img src="/img/about_big/05.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="image06" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#" class="popup__close close-popup">X</a>
-                <div class="popup__image">
-                    <img src="/img/about_big/06.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="image07" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#" class="popup__close close-popup">X</a>
-                <div class="popup__image">
-                    <img src="/img/about_big/07.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="image08" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#" class="popup__close close-popup">X</a>
-                <div class="popup__image">
-                    <img src="/img/about_big/08.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="image09" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#" class="popup__close close-popup">X</a>
-                <div class="popup__image">
-                    <img src="/img/about_big/09.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="image10" class="popup">
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#" class="popup__close close-popup">X</a>
-                <div class="popup__image">
-                    <img src="/img/about_big/10.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="/js/script.js"></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="/js/script.js"></script>
+    </body>
 </html>
